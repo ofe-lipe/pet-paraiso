@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    text-decoration:none;
+}
+
+.banner{
+    background-image:url('img/banner-topo.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    padding:120px 80px;
+    width:100%;
+}
+
+.logo{
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+    max-width:350px;
+    
+}
+
+.logo img{
+    width:30px;
+    margin-right:5px;
+    padding:0px;
+    
+}
+
+.patas{
+    font-size:36px;
+    color:#3c184e;
+    font-family: sans-serif;
+    margin-bottom:0px;
+    font-weight:700px;
+}
+
+.titulo {
+    background-color: #ffffffc4;
+    text-align: center;
+    color: #3c184e;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    border-radius: 10px;    
+    box-shadow: inset 0px 0px 10px 0px #1f26875e;
+}   
+
+.wpp{
+    width: 200px;
+    padding: 10px 25px;
+    margin:0px auto;
+    background-color:#3c184e;
+    color:#fff;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align:center; 
+    
+}
+
+.titulo img{
+    width: 20px;
+}
+
+.servicos-lista{
+    max-width:800px;
+    margin:0px auto 50px;
+    color: #3c184e;
+    font-size: 20px;
+
+    
+}
+
+.servicos-lista h3{
+    font-size:36px;
+    color:#3c184e;
+    text-align:center;
+    margin: 20px 0px 45px;
+}
+
+.servicos-lista span{
+    font-style:italic;
+    font-weight:700;
+    
+}
+
+.servicos-lista li{
+       padding: 20px;
+}
+
+.servicos-img{
+    text-align: center;
+    
+}
+
+.servicos-img img{
+    max-width:800px;
+    border-radius: 5px;
+    box-shadow:3px 6px 10px 6px #0000005c;
+
+}
+
+.faixa{
+    padding: 120px 80px;
+    background-color:#3c184e;
+    text-align: center;
+
+}
+
+.faixa p{
+    max-width:800px;
+    margin: 0px auto 50px;
+    font-size:40px;
+    color:#fff;
+    text-align:center;
+}
+
+.faixa span{
+    font-weight:700;
+    font-style:italic;
+    
+}
+
+.faixa img{
+    width:50px;
+    height:50px;
+    margin: 0px 20px;
+}
+
+.marcas h3{
+font-size: 36px;
+color: #3c184e;
+text-align:center;
+margin:0px 0px 45px 0px;
+
+}
+.alfa-inata{
+    padding:50px 80px;
+    
+}
+
+
+.bio-pick{
+    padding:50px 80px;
+
+}
+
+
+.papa-expo{
+    padding:50px 80px;
+
+}
+
+.marcas{
+    max-width:800px;
+    margin:0px auto;
+}
+
+.where h3 {
+    font-size:36px;
+    color:#3c184e;
+    text-align:center;
+    margin:0px 0px 45px;
+}
+
+.where p{
+
+    font-size:20px;
+    color:#3c184e;
+    text-align:center;
+    margin:0px 0px 45px;
+
+}
+
+.where iframe{
+    width:800px;
+    height:450px;
+    margin: 0px 350px;
+}
+
+.rodape{
+    width:100%;
+    padding:10px 0px;
+    background-color: #3c184e;
+
+}
+
+.rodape p{
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+    
+}
