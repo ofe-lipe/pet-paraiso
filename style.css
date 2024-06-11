@@ -38,17 +38,21 @@
     font-weight:700px;
 }
 
-.titulo{
+.titulo {
+    max-width: 1024px;
     background-color: #ffffffc4;
+    padding: 60px 0;
+    margin: 70px auto 0 auto;
     text-align: center;
-    color: #3c184e;
-    font-size: 30px;
-    max-width: 1000px;
-    margin: auto;
-    padding: 100px;
-    border-radius: 10px;    
     box-shadow: inset 0px 0px 10px 0px #1f26875e;
-}   
+}
+
+h1 {
+    font-size: 32px;
+    color: #3c184e;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
 
 .wpp{
     width: 200px;
@@ -197,88 +201,3 @@ margin:0px 0px 45px 0px;
     
 }
 
-@media (orientation:portrait) and (max-width:412px)
-{
-    .banner
-    {   
-    background-image:url('img/banner-topo.jpg');
-    background-attachment:fixed;
-    background-size:cover;
-    background-position:center center;
-    } 
-    
-    .titulo
-    {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 40px 40px;
-    width: 110%;
-    }   
-
-    .titulo h1
-    {
-    font-size: 35px;
-    }
-    
-    .wpp
-    {
-    font-size: 10px;   
-    }
-
-    .servicos-lista h3 
-    {
-    font-size: 25px;
-    }
-
-    .faixa
-    {
-    padding:100px 40px;
-    }
-
-    .faixa p
-    {
-    font-size: 25px;
-    }
-
-    .faixa img{
-    width:40px;
-    height:40px;
-    }
-
-    .marcas
-    {
-    
-    }
-
-    .marcas h3
-    {
-    font-size: 25px;
-    }
-
-    .marcas
-    {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    }
-
-    .marcas img
-    {
-     width: 110px;
-     height: 110px;   
-    }
-
-    .where h3
-    {
-    font-size: 25px;
-    }
-
-    .where iframe
-    {
-     margin: auto;
-     padding: 10px 30px;
-     width: 380px;
-     height: 380px;
-    }
-}
