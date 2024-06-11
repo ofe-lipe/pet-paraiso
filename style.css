@@ -6,31 +6,34 @@
     text-decoration:none;
 }
 
-.banner{
+.banner
+{
     background-image:url('img/banner-topo.jpg');
-    background-attachment:fixed;
+    
     background-size:cover;
     background-position:center;
     padding:120px 80px;
     width:100%;
 }
 
-.logo{
+.logo
+{
     text-decoration:none;
     margin:0px;
     padding:0px;
-    max-width:350px;
-    
+    max-width:350px;    
 }
 
-.logo img{
+.logo img
+{
     width:30px;
     margin-right:5px;
     padding:0px;
     
 }
 
-.patas{
+.patas
+{
     font-size:36px;
     color:#3c184e;
     font-family: sans-serif;
@@ -38,7 +41,8 @@
     font-weight:700px;
 }
 
-.titulo {
+.titulo
+{
     max-width: 1024px;
     background-color: #ffffffc4;
     padding: 60px 0;
@@ -47,14 +51,16 @@
     box-shadow: inset 0px 0px 10px 0px #1f26875e;
 }
 
-h1 {
+h1 
+{
     font-size: 32px;
     color: #3c184e;
     margin-bottom: 40px;
     font-weight: 800;
 }
 
-.wpp{
+.wpp
+{
     width: 200px;
     padding: 10px 25px;
     margin:0px auto;
@@ -63,38 +69,40 @@ h1 {
     font-family: sans-serif;
     border-radius: 10px;
     font-size: 20px;
-    text-align:center; 
-    
+    text-align:center;     
 }
 
-.titulo img{
+.titulo img
+{
     width: 20px;
 }
 
-.servicos-lista{
+.servicos-lista
+{
     max-width:800px;
     margin:0px auto 50px;
     color: #3c184e;
     font-size: 20px;
-
-    
 }
 
-.servicos-lista h3{
+.servicos-lista h3
+{
     font-size:36px;
     color:#3c184e;
     text-align:center;
     margin: 20px 0px 45px;
 }
 
-.servicos-lista span{
+.servicos-lista span
+{
     font-style:italic;
     font-weight:700;
     
 }
 
-.servicos-lista li{
-       padding: 20px;
+.servicos-lista li
+{
+    padding: 20px;
 }
 
 .servicos-img{
@@ -131,8 +139,8 @@ h1 {
 }
 
 .faixa img{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     margin: 0px 20px;
 }
 
